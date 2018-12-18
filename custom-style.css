@@ -1,0 +1,864 @@
+body {
+	color: #333;
+	background-color: #f4f4f4;
+	font-family: Arial;
+}
+
+.bg {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 166px;
+	height: 110px;
+	background-color: #4e6dd1;
+	z-index: -1;
+}
+
+
+.tick-signal br {
+    display: none;
+}
+.tick-signal {
+    width: 100%;
+    margin: 21px 0 5px 0;
+}
+.tick-signal h3.seconopen {
+    float: left;
+    width: 299px;
+    font-size: 14px;
+    color: #4e6dd1;
+    margin: 3px 0 0 0;
+    cursor: pointer;
+}
+
+
+.tick-signal i.fa.fa-check-circle {
+    color: #539b05;
+    font-size: 25px!important;
+    float: left;
+    width: 28px;
+}
+
+.tick-signal h3.seconopen {
+    float: left;
+    width: 299px;
+    font-size: 14px;
+    color: #4e6dd1;
+    margin: 3px 0 0 0;
+}
+
+
+a,
+a:hover {
+	color: #4e6dd1;
+}
+.screen-reader-response[role="alert"] {
+    background: rgba(90,167,0,0.9);
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 0;
+    color: #fff;
+    line-height: 20px;
+    position: fixed;
+    top: 0px;
+    width: 80%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    border-radius: 2px;
+    border-bottom: 2px solid #376401;
+    transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+    z-index: 999999;
+}
+
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+    display: none;
+}
+
+
+form.wpcf7-form.step-form input#submit {
+    background-color: #4e6dd1;
+    border: 0;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 15px;
+    white-space: normal;
+    color: #fff;
+    border-radius: 4px;
+    padding: 11px 35px;
+}
+
+
+a.step-count.step-1-count.btn-step-1-top {
+    pointer-events: none;
+    cursor: default;
+}
+a.step-count.step-2-count.btn-step-2-top {
+    pointer-events: none;
+    cursor: default;
+}
+a.step-count.step-3-count.btn-step-3-top {
+    pointer-events: none;
+    cursor: default;
+}
+a.step-count.step-4-count.btn-step-4-top {
+    pointer-events: none;
+    cursor: default;
+}
+a.step-count.step-5-count.btn-step-5-top {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+
+
+
+
+
+.step-holder .step-count br {
+    display: none;
+}
+
+.step-count br {
+    display: none;
+}
+.step-holder .step-count + p {
+    display: none;
+}
+
+.step-holder .graph-active {
+    background: #4e6dd1;
+}
+
+
+.logo-link img {
+    width: 43px;
+}
+
+.main {
+	max-width: 80%;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 40px;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(97,97,97,0.75);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(97,97,97,0.75);
+	box-shadow: 0px 0px 8px 0px rgba(97,97,97,0.75);
+	background-color: white;
+}
+
+.wrapper {
+	background-color: white;
+	border-top: 2px solid #4e6dd1;
+	border-bottom: 1px solid #bcbcbc;
+	display: block;
+	overflow: hidden;
+}
+
+
+
+header {
+	height: 124px;
+}
+
+.header-content {
+	margin-top: 30px;
+	margin-left: 4%;
+	margin-right: 4%;
+	overflow: hidden;
+}
+
+.logo-link {
+	margin-bottom: 9px;
+	display: block;
+	float: left;
+}
+
+.logo-line  {
+	display: block;
+	height: 2px;
+	background-color: #efefef;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+header h1 {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.logo-line-inside {
+	display: block;
+	width: 95px;
+	background-color: #4e6dd1;
+	height: 2px;
+}
+
+h1 .span-blue {
+	color: #4e6dd1;
+}
+
+h1 {
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 11px;
+}
+
+.main .first-col {
+    width: 78%;
+    float: left;
+    display: block;
+    clear: both;
+    background-color: white;
+    padding-bottom: 69px;
+    height: inherit!important;
+}
+
+.main .second-col {
+	width: 22%;
+	float: left;
+	display: block;
+}
+.step-holder .step-graph {
+    display: block;
+}
+.help-group .tel {
+    width: 100%;
+}
+
+.step-holder {
+	height: 111px;
+	width: 100%;
+	background-color: #f7f7f7;
+	display: block;
+	border-bottom: 1px solid #bcbcbc;
+	overflow: hidden;
+	position: relative;
+}
+
+.second-col {
+	width: 100%;
+	background-color: #f7f7f7;
+	border-left: 1px solid #bcbcbc;
+}
+
+.second-col h2 {
+	font-weight: bold;
+	font-size: 27px;
+	margin-top: 44px;
+}
+
+.first-col h2 {
+	font-size: 27px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 32px;
+}
+
+.main form {
+	width: 100%;
+	display: block;
+}
+
+.main form label {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+form .btn.btn-primary {
+	background-color: #4e6dd1;
+	border: 0;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 15px;
+	white-space: normal;
+}
+
+footer {
+	/*border-top: 1px solid #bcbcbc;*/
+	/*padding-top: 75px;*/
+	clear: both;
+}
+
+.help-group {
+	display: inline-block;
+	width: 100%;
+}
+
+.has-error {
+	border: 1px solid #cc2c28 !important;
+}
+
+.checkboxes .col-xs-12 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.col-xs-12.has-error {
+	background-position: right 5px top 5px;
+	border: 0 !important;
+	background-color: #ffe5e5;
+}
+
+.help-error {
+	color: #cc2c28;
+}
+
+.has-success:not(select) {
+	background-image: url('http://www.zeroitsolutions.com/multistepform/wp-content/themes/twentyseventeen/assets/images/success.png');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+}
+
+.has-error:not(select) {
+	background-image: url('http://www.zeroitsolutions.com/multistepform/wp-content/themes/twentyseventeen/assets/images/error.png');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+}
+
+.payment .has-error:not(select) {
+	background-image: none;
+
+}
+
+.payment label {
+	cursor: pointer;
+}
+
+.popup-error {
+	background-color: #cc2c28;
+	color: white;
+	font-size: 12px;
+	padding: 10px;
+	position: absolute;
+	text-align: center;
+	bottom: 55px;
+	display: none;
+}
+
+.popup-error img {
+	bottom: -5px;
+	position: absolute;
+}
+
+form .btn.btn-primary.back-btn {
+	background-color: #e5e5e5;
+	border: 0;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 10px 30px;
+	color: #777777;
+}
+
+.steps {
+	margin-top: 19px;
+	overflow: hidden;
+}
+
+.steps .col-xs-2 .step-count {
+	width: 100%;
+	height: 36px;
+	background-color: #e5e5e5;
+	border-radius: 5px;
+	display: block;
+	overflow: hidden;
+}
+
+.steps .col-xs-2 .step-count span {
+	float: left;
+	display: block;
+	width: 28px;
+	height: 24px;
+	background-color: white;
+	color: #999;
+	border-radius: 5px;
+	margin: 6px 10px;
+	line-height: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.steps .col-xs-2 .step-count h3 {
+	color: #858585;
+	font-size: 11px;
+	margin: 12px 0 0;
+	float: left;
+}
+
+.steps .col-xs-2 .step-count.active {
+	background-color: #4e6dd1;
+}
+.list-checkbox-widget h3 {
+    font-size: 16px;
+    color: #000;
+}
+.list-checkbox-widget span.wpcf7-list-item-label {
+    display: none;
+}
+
+.list-checkbox-widget span.wpcf7-form-control-wrap + span {
+    color: #777;
+    font-size: 14px;
+}
+
+.list-checkbox-widget {
+    margin-bottom: 30px;
+}
+
+
+.list-checkbox-widget h2.auftragserteilung {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    margin-left: 18px;
+}
+
+.steps .col-xs-2 .step-count.active span {
+	color: #4e6dd1;
+}
+.step-holder .steps .col-xs-2 {
+    width: 20%;
+}
+
+.steps .col-xs-2 .step-count.active h3 {
+	color: white;
+}
+
+.step-progress-bar {
+	width: 100%;
+	position: absolute;
+	height: 2px;
+	background-color: #e5e5e5;
+}
+
+.step-progress {
+	background-color: #4e6dd1;
+	height: 2px;
+	display: block;
+}
+
+.step-graph {
+    clear: both;
+    display: block;
+    margin-top: 17px;
+    overflow: hidden;
+}
+
+.step-graph .col-lg-2 {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 6px 0 0 0;
+}
+
+.graph-container {
+	background-color: #e5e5e5;
+	height: 20px;
+	display: block;
+	border-radius: 4px;
+}
+
+.graph-container .text-center {
+	font-size: 11px;
+	font-weight: bold;
+	color: #656464;
+	line-height: 20px;
+}
+
+.graph {
+	height: 12px;
+	border-radius: 4px;
+}
+
+.graph-content {
+	background-color: white;
+	width: 100%;
+	height: 12px;
+	border-radius: 3px;
+	margin-top: 4px;
+}
+
+.graph-active {
+	background-image: url('http://www.zeroitsolutions.com/multistepform/wp-content/themes/twentyseventeen/assets/images/load-bg.png');
+	background-repeat: repeat-x;
+	width: 30%;
+	height: 12px;
+	border-radius: 3px;
+}
+
+.footer-stripe {
+	width: 100%;
+	height: 2px;
+	background-color: #efefef;
+}
+
+.footer-stripe-content {
+	width: 95px;
+	float: right;
+	height: 2px;
+	background-color: #4e6dd1;
+}
+
+ul.footer-content {
+	float: right;
+	margin: 0 10px 0 0;
+}
+
+ul.footer-content li {
+	float: left;
+	display: block;
+	padding: 15px;
+}
+
+ul.footer-content li a {
+	font-size: 12px;
+	color: #777777;
+	text-decoration: none;
+}
+
+.cart {
+	clear: both;
+}
+.cart-hint h4 {
+	font-size: 11px;
+	color: #777;
+	font-weight: bold;
+}
+
+.cart-hint p {
+	font-size: 11px;
+	color: #777;
+}
+
+.cart-table {
+	border: 1px solid #bcbcbc;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.cart-table table {
+	font-size: 11px;
+	width: 100%;
+	color: #777;
+}
+
+.cart-table table td {
+	padding: 2px 0;
+}
+
+.cart-table table th {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	padding-bottom: 5px;
+}
+
+.vat td {
+	padding-bottom: 16px !important;
+}
+
+.total {
+	font-weight: bold;
+	color: #333;
+}
+
+.total td:last-child {
+	color: #4e6dd1;
+	font-size: 15px;
+}
+
+.step-3 h3 {
+	font-size: 22px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 22px;
+}
+
+
+.payment {
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+.payment > label {
+	height: 52px;
+	border-radius: 4px;
+	border: 1px solid #bcbcbc;
+	float: left;
+	margin-right: 10px;
+	padding: 11px;
+}
+
+.payment > label:last-child {
+	margin-right: 0;
+}
+
+.payment label img {
+	margin-left: 5px;
+}
+
+.payment label.ec {
+	width: 101px;
+}
+
+.payment label.sf {
+	width: 101px;
+}
+
+.payment label.cc {
+	width: 155px;
+}
+
+.payment label.pp {
+	width: 101px;
+}
+
+.agb-box,
+.agb2-box {
+	display: block;
+	overflow: hidden;
+}
+
+.agb-box input,
+.agb2-box input {
+	float: left;
+}
+
+.agb-box label,
+.agb2-box label {
+	margin-left: 25px;
+	margin-top: 1px;
+	padding-right: 30px;
+	display: block;
+}
+
+.signature-container {
+	margin-top: 20px;
+}
+
+.korrektur .signature-container {
+	max-width: 500px;
+}
+
+.signature-head {
+	font-weight: bold;
+	font-size: 11px;
+	color: #444;
+	margin-bottom: 5px;
+}
+
+.signature-hint {
+	font-size: 11px;
+	color: #777;
+}
+
+.signature-canvas-container {
+	width: 100%;
+	height: 120px;
+	border: 1px solid #bcbcbc;
+	border-radius: 5px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.signature-reset {
+	float: right;
+	font-size: 11px;
+	text-decoration: none !important;
+	color: #4e6dd1;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.help-tick {
+	position: absolute;
+	left: -11px;
+}
+
+.second-col {
+	position: relative;
+}
+
+.help-container {
+	position: absolute;
+	left: 0;
+	padding: 15px;
+	width: 100%;
+}
+
+.help-container h6 {
+	font-weight: bold;
+	font-size: 13px;
+	background-image: url('http://www.zeroitsolutions.com/multistepform/wp-content/themes/twentyseventeen/assets/images/help-li.png');
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	background-position: left center;
+}
+
+.help-container p {
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 30px;
+}
+
+.remodal {
+	text-align: left;
+}
+
+.remodal p {
+	text-align: justify;
+}
+
+#signature-pad canvas {
+	width: 100%;
+	height: 120px;
+}
+
+.sigpad-x {
+    font-size: 42px;
+    font-weight: normal;
+    color: #555;
+    line-height: 40px;
+}
+
+.sigpad-name {
+    color: #777;
+    font-size: 11px;
+    border-top: 1px solid #DDD;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+}
+
+.m-signature-pad--label {
+	width: 298px;
+	position: absolute;
+	left: 5%;
+	bottom: 10px;
+
+}
+
+input[type="checkbox"] {
+	outline: 2px solid white;
+	margin-left: 2px;
+}
+
+input[type="checkbox"].has-error {
+	outline: 2px solid #cc2c28;
+}
+
+input[type="radio"] {
+	background: none;
+}
+
+.birthday {
+	overflow: hidden;
+}
+
+.birthday .form-control.margin {
+	margin-right: 3%;
+}
+
+.birthday .form-control.margin:nth-child(2) {
+	margin-right: 4%;
+}
+
+.birthday .form-control {
+	width: 31% !important;
+	float: left;
+}
+
+.cc-exp .form-control {
+	width: 45% !important;
+	float: left;
+}
+
+.cc-exp .form-control.margin {
+	margin-right: 10%;
+}
+
+.payment-group {
+	margin-bottom: 20px;
+}
+
+.danke .step-holder a {
+	cursor: default;
+	pointer-events: none;
+}
+
+.error-box {
+    background-color: #ffcccc;
+    border-bottom: 1px solid red;
+    padding-top: 10px;
+}
+
+.payment-info {
+	background-color: #d6eef8;
+	border: 1px solid #c1ebf5;
+	border-radius: 4px;
+	color: #0177a9;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.tel {
+	float: right;
+	font-size: 16px;
+	color: #CCC;
+	font-weight: bold;
+}
+
+.tel span {
+	font-size: 13px;
+	margin-right: 5px;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.form-group {
+	overflow: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.icheckbox_minimal-aero {
+	float: left;
+}
+
+.cookieAdvice {
+	text-align: center;
+	background-color: #dedede;
+	font-size: 12px;
+}
+
+.cookieAnchor {
+	color: #2b2e38;
+}
+
+.btn-korrektur {
+	margin-bottom: 20px;
+}
